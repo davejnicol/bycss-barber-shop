@@ -35,3 +35,23 @@ $container-max-width-narrow: 40rem;
 $container-max-width-wide: 75rem;
 
 $card-body-padding: clamp($size-8, 3.5vw, $size-12);
+
+// Buttons
+$button-border: 0;
+$button-border-radius: $size-2;
+$button-font-family: $body-font-family;
+$button-font-size: $font-size-600;
+$button-font-weight: $font-weight-bold;
+$button-padding-default: $size-3 $size-9; // 12px 32px
+$button-text-decoration: none;
+$button-text-transform: none;
+
+$button-accent-color: $color-neutral-100;
+$button-accent-background: $color-accent-400;
+$button-accent-color-hover: $color-neutral-100;
+$button-accent-background-hover: $color-accent-500;
+
+$button-primary-color: $color-neutral-100;
+$button-primary-background: $color-primary-700;
+$button-primary-color-hover: $color-neutral-100;
+$button-primary-background-hover: $color-primary-800;
