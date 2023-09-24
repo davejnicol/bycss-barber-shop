@@ -10,27 +10,26 @@ $-clr-brown-400: hsl(22 31% 44%);
 $-clr-brown-700: hsl(20 23% 23%);
 $-clr-brown-800: hsl(16 22% 10%);
 
-
 $colors: (
-    "neutral": (
-        "100": $-clr-white,
-    ),
-    "accent": (
-        "300": $-clr-orange-300,
-        "400": $-clr-orange-400,
-        "500": $-clr-orange-500,
-    ),
-    "primary": (
-        "100": $-clr-brown-100,
-        "200": $-clr-brown-200,
-        "300": $-clr-brown-300,
-        "400": $-clr-brown-400,
-        "700": $-clr-brown-700,
-        "800": $-clr-brown-800,
-    ),
+	"neutral": (
+		"100": $-clr-white,
+	),
+	"accent": (
+		"300": $-clr-orange-300,
+		"400": $-clr-orange-400,
+		"500": $-clr-orange-500,
+	),
+	"primary": (
+		"100": $-clr-brown-100,
+		"200": $-clr-brown-200,
+		"300": $-clr-brown-300,
+		"400": $-clr-brown-400,
+		"700": $-clr-brown-700,
+		"800": $-clr-brown-800,
+	),
 );
 
-// Contextual Tolor Tokens
+// Contextual Color Tokens
 $color-neutral-100: var(--neutral-100);
 $color-accent-300: var(--accent-300);
 $color-accent-400: var(--accent-400);
