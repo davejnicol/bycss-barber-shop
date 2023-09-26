@@ -51,6 +51,14 @@ $container-max-width-wide: 75rem;
 
 $card-body-padding: clamp($size-8, 3.5vw, $size-12);
 
+// Logo
+$logo-fill-default: $color-primary-400;
+$logo-fill-header: $color-primary-300;
+$logo-fill-footer: $color-accent-400;
+$logo-size-default: 20rem;
+$logo-size-header: 15rem;
+$logo-size-footer: 12rem;
+
 // Site Header
 $site-header-background-color: $color-primary-800;
 $site-header-color: $color-neutral-100;
