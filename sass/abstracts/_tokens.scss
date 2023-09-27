@@ -3,6 +3,7 @@
 @use "sizes" as *;
 
 $active-theme: $light;
+$enable-media-query-dark-mode: true; // true compiled, false skipped
 
 // Contextual
 $color-background-default: $color-primary-100;
