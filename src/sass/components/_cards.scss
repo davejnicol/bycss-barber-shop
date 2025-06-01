@@ -3,6 +3,8 @@
 .card {
 	background-color: $card-background-default;
 	color: $card-color-default;
+	border-radius: $card-border-radius;
+	box-shadow: $card-box-shadow;
 	display: grid;
 	font-family: $card-font-family;
 	gap: $card-flow-spacing;
