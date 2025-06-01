@@ -1,0 +1,30 @@
+@use "../abstracts/" as *;
+
+.hours {
+	display: flex;
+	flex-wrap: wrap;
+	gap: $size-10;
+	justify-content: center;
+
+	& > * {
+		position: relative;
+
+		&::before,
+		&::after {
+			content: "";
+			position: absolute;
+			background-color: $color-primary-800;
+			margin-block: auto;
+			height: $size-6;
+			width: 1px;
+			bottom: 0;
+			top: 0;
+		}
+		&::before {
+			left: calc(($size-10 / -2) - 1px);
+		}
+		&::after {
+			right: calc($size-10 / -2);
+		}
+	}
+}
