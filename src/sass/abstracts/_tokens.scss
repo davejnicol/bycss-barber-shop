@@ -61,7 +61,10 @@ $site-header-jusitifcation-large-screens: space-between;
 // Navigation
 $navigation-color: $site-header-color;
 $navigation-color-hover: $color-primary-300;
+$navigation-font-family: $font-family-accent;
 $navigation-font-size: $font-size-400;
+$navigation-font-weight: $font-weight-bold;
+$navigation-letter-spacing: $letter-spacing-loose;
 $navigation-gap: $size-9;
 
 // Site Footer

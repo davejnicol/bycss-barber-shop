@@ -6,6 +6,9 @@
 
 	a {
 		@include heading($navigation-font-size, $navigation-color);
+		font-family: $navigation-font-family;
+		font-weight: $navigation-font-weight;
+		letter-spacing: $navigation-letter-spacing;
 		text-decoration: none;
 
 		&:is(:hover, :focus) {
