@@ -2,6 +2,8 @@
 @use "typography" as *;
 @use "sizes" as *;
 
+$active-theme: $dark;
+
 // Contextual
 $color-background-default: $color-primary-100;
 $color-text-default: $color-primary-700;
