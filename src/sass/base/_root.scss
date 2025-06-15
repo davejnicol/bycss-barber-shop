@@ -7,14 +7,6 @@
 		}
 	}
 
-	@media (prefers-color-scheme: dark) {
-		@each $color, $shade-map in $dark {
-			@each $shade, $value in $shade-map {
-				--#{$color}-#{$shade}: #{$value};
-			}
-		}
-	}
-
 	@each $screen-size, $size-map in $font-sizes {
 		@if $screen-size == small {
 			@each $size-name, $size-value in $size-map {
@@ -25,6 +17,14 @@
 				@each $size-name, $size-value in $size-map {
 					--fs-#{$size-name}: #{$size-value};
 				}
+			}
+		}
+	}
+
+	@media (prefers-color-scheme: dark) {
+		@each $color, $shade-map in $dark {
+			@each $shade, $value in $shade-map {
+				--#{$color}-#{$shade}: #{$value};
 			}
 		}
 	}
